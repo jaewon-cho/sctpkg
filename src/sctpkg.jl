@@ -1,5 +1,7 @@
 module sctpkg
 
+using Embeddings
+
 mutable struct IndexData
 	name::String
 	tissue::String
